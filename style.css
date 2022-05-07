@@ -1,0 +1,60 @@
+* {
+  font-family: Roboto, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(30, 30, 30);
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  padding-top: 4px;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  line-height: 0.5;
+}
+
+label {
+  color: rgb(255, 255, 255);
+}
+
+input {
+  width: 50px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+button {
+  color: #fff;
+  background-color: rgb(115, 115, 115);
+  padding: 5px;
+  margin: 2px;
+  border-radius: 5px;
+}
+
+button:disabled {
+  color: rgb(180, 180, 180);
+  background-color: rgb(50, 50, 50);
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.options-container {
+  margin-bottom: 14px;
+}
+
+#generate-array-btn {
+  background-color: rgb(186, 0, 0);
+}

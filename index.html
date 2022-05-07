@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Algorithm Visualization</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.min.js"></script>
+    <meta charset="utf-8" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;0,900;1,400&display=swap');
+    </style>
+  </head>
+
+  <header>
+    <h1>Algorithm Visualizer</h1>
+    <div class="options-container">
+      <label for="array-size-input">Array Size:</label>
+      <input
+        type="number"
+        id="array-size-input"
+        name="array-size-input"
+        value="24"
+        onchange="optionsChanged()"
+      />
+      <label for="speed-input">Animation Step Delay (ms):</label>
+      <input
+        type="number"
+        id="speed-input"
+        name="speed-input"
+        value="100"
+        onchange="optionsChanged()"
+      />
+    </div>
+    <div class="buttons-container">
+      <button id="generate-array-btn">Generate New Array</button>
+      <button id="insertion-sort-btn">Insertion Sort</button>
+      <button id="bubble-sort-btn">Bubble Sort</button>
+      <button disabled id="selection-sort-btn">Selection Sort</button>
+      <button id="quick-sort-btn">Quick Sort</button>
+    </div>
+  </header>
+
+  <body>
+    <script src="script.js"></script>
+  </body>
+</html>
